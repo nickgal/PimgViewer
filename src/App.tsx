@@ -1,11 +1,13 @@
 import './App.css';
-import BinaryTable from './BinaryTable';
+// import BinaryTable from './BinaryTable';
+import PimgViewer from './PimgViewer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BinaryTable />
+        {/* <BinaryTable /> */}
+        <PimgViewer />
       </header>
     </div>
   );
